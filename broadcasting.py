@@ -136,7 +136,7 @@ class MPEG:
         output_path = self.output_folder + "subtitled_" + self.short_input_path
         ## download subtitles
         r = requests.get(subtitles_url, allow_redirects=True)
-        subtitles_path = "my_own_subtitles.srt"
+        subtitles_path = self.output_folder + "my_own_subtitles.srt"
         open(subtitles_path, 'wb').write(r.content)
         ## integrate subtitles into video
         subtitles_command = "ffmpeg -i " + self.short_input_path + " -vf subtitles=" + subtitles_path + " " + output_path
