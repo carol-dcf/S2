@@ -8,7 +8,7 @@ if __name__ == "__main__":
     ex = 1
     while ( ex != 0 ):
         print("\033[1m\nChoose an exercise:\033[0m")
-        print("\t 1. Analyse video" + "\n\t 2. BBB container" + "\n\t 3. Broadcasting Standard" + "\n\t 4. Add Subtitles" + "\n\t 0. Exit")
+        print("\t 1. Analyse video" + "\n\t 2. New container" + "\n\t 3. Broadcasting Standard" + "\n\t 4. Add Subtitles" + "\n\t 0. Exit")
 
         ex = int(input())
 
