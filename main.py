@@ -1,4 +1,4 @@
-from class_s2 import MPEG
+from broadcasting import MPEG
 
 if __name__ == "__main__":
     # create instance
@@ -30,7 +30,7 @@ if __name__ == "__main__":
         elif (ex == 4):
             #### 4 #####
             print("\n\033[1mEXERCISE 4\033[0m")
-            semi2.burn_subtitles("https://raw.githubusercontent.com/carol-dcf/S2/main/My_own_subtitles.srt")
+            semi2.burn_subtitles("https://raw.githubusercontent.com/carol-dcf/S2/main/my_own_subtitles.srt")
 
         elif (ex == 0):
             print("Application closed.")

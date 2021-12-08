@@ -1,15 +1,1 @@
-1
-00:00:00,000 --> 00:00:3,000
-seminari S2 SCAV
-
-2
-00:00:3,200 --> 00:00:8,000
-<font color="#ffff00">CAROLINA DEL CORRAL</font>
-
-3
-00:00:8,063 --> 00:00:10,853
-<font color="#ffff00">Molt bon dia.</font>
-
-4
-00:00:11,000 --> 00:00:12,000
-<font color="#ffff00">Has</font><font color="#00ff00"> </font><font color="#00ffff">fli</font><font color="#ff8000">pat</font> <font color="#ff0000">jeje</font> <font color="#ff00ff"><3</font> <font color="#8000ff">:)</font>
+404: Not Found
