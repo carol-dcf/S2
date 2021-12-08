@@ -1,9 +1,9 @@
-import macroblocks_motionvectors as mb
-import create_container as cc
-import read_tracks as rt
-import subtitles as sub
+from class_s2 import MPEG
 
 if __name__ == "__main__":
+    # create instance
+    semi2 = MPEG("BBB.mp4", "cut_bbb.mp4")
+
     # Interactive menu
     ex = 1
     while ( ex != 0 ):
@@ -15,22 +15,22 @@ if __name__ == "__main__":
         #### 1 #####
         if (ex == 1):
             print("\033[1mEXERCISE 1\033[0m")
-            mb.video_motion_vectors("cut_bbb.mp4")
+            semi2.video_motion_vectors()
 
         #### 2 #####
         elif (ex == 2):
             print("\n\033[1mEXERCISE 2\033[0m")
-            cc.new_container("BBB.mp4")
+            semi2.new_container()
 
         elif (ex == 3):
             #### 3 #####
             print("\n\033[1mEXERCISE 3\033[0m")
-            print(rt.broadcasting_standard("cut_bbb.mp4"))
+            print(semi2.broadcasting_standard())
 
         elif (ex == 4):
             #### 4 #####
             print("\n\033[1mEXERCISE 4\033[0m")
-            sub.burn_subtitles("cut_bbb.mp4", "ws")
+            semi2.burn_subtitles("https://raw.githubusercontent.com/carol-dcf/S2/main/My_own_subtitles.srt")
 
         elif (ex == 0):
             print("Application closed.")
